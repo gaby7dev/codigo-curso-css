@@ -1,0 +1,20 @@
+/*
+###### SELECTOR POR GRUPO ######
+
+Nos permite poder aplicar un mismo estilo a múltiples selectores o elementos.
+*/
+
+h1 {
+    color: lightgreen;
+    font-size: 30px;
+}
+h2 {
+    color: lime;
+    font-size: 25px;
+}
+
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: magenta;
+}
