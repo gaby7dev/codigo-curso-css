@@ -1,9 +1,0 @@
-/* 
-########### Selector Universal ########### 
-Selecciona todo los delementos del documento html 
-*/
-
-*{
-    font-size: 20px; 
-    /* Todos los elementos tendrán un tamaño de fuente de 20px */
-}
