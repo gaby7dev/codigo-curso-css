@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Anton;
+    src: url(fonts/Anton/Anton-Regular.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+/* MANEJO DE FUETES EN CSS */
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+h1 + h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-style: oblique;
+    font-weight: 300;
+
+    text-decoration: underline;
+}
+
+.texto-1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.texto-2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+p + h2 {
+    font-family: 'Mansalva', cursive;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+.texto-3 {
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+}
+
+.texto-4 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}

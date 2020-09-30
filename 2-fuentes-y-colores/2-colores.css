@@ -1,0 +1,28 @@
+/* Tipos de colores en css 
+    - colores del sistema, ej: blue, red, etc...
+    - colores hexadecimal.
+    - colores rgb.
+    - colores rgba.
+    - colores hsl.
+    - colores hsla.
+
+*/
+.hexadecimal {
+    color: #bd0505;
+}
+
+.rgb {
+    color: rgb(129, 9, 226);
+}
+
+.rgba {
+    color: rgba(123, 255, 0, 0.5);
+}
+
+.hsl{
+    color: hsl(9, 100%, 64%);
+}
+
+.hsla{
+    color: hsla(244, 100%, 64%, 0.7);
+}

@@ -1,0 +1,34 @@
+/*
+######## SELECTOR DE ATRIBUTO ########
+syntax:
+    elemento[atributo] {}
+Nos permite aplicar estilos en elementos html mediante sus atributos. Este tipo de selector es mayormente utilizado en formularios.
+
+*/
+
+#usuario form {
+    border: 5px solid lightseagreen;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+#usuario form *{ /* Con esta combinación de selectores estamos diciendo que queremos aplicar los siguientes estilos a todos los elementos html que estén dentro del formulario */
+    display: block;
+
+}
+
+/* Selector de Atributo */
+input[type="text"]{
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 150px;
+}
+input[type="submit"]{
+    background-color: lightseagreen;
+    color: #f6f6f6;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}

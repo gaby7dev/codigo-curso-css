@@ -1,0 +1,25 @@
+/* 
+########### Selector Tipo o De Etiqueta ########### 
+Permite seleccionar cualquier elemento html.
+*/
+
+h1 { /* Selecionará todos los elementos h1 */
+    color: blueviolet;
+    background-color: brown;
+}
+
+h2 { /* Selecionará todos los elementos h2 en los cuales se les asignarán las propiedades.*/
+    color: red;
+    background-color: yellowgreen;
+}
+a{
+    font-size: 18px;
+    color: green;
+    text-decoration: none;
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: hotpink;
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,12 @@
+/*
+####### SELECTOR HIJO #######
+Nos permite darle estilos a determinados elementos dentro de un elemento.
+*/
+
+#menu > li > a{
+    /* Seleciona el elemendo de id "menu" luego entra al elemento hijo "li" y lugo al elemento a. Sólo se aplicaran los estilos a los elementos "a" que estén dentro de un li y pertenezan al elemento con el id "menu"*/
+    font-size: 20px;
+    color: lime;
+    text-decoration: none;
+    font-weight: bold;
+}
