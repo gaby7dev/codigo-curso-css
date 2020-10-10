@@ -1,0 +1,17 @@
+article {
+    width: 300px;
+    height: 300px;
+    background-color: cornflowerblue;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+/*  
+    El overflow sirve para controlar el desborde de contenido.
+    overflow: visible / hidden / scroll;
+        - visible: valor por defecto que deja ver el contenido desbordado.
+        - hidden: oculta el contenido desbordado 
+        - scroll: genera un scroll para poder visualizar el contenido. Para que no aparezca un scroll debajo se utiliza "overflow-y: scroll"
+*/
+    /* overflow: scroll;  */
+    overflow-y: scroll;
+}

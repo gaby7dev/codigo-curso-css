@@ -1,0 +1,29 @@
+.caja {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    border: 10px solid thistle;
+    margin: 10px;
+    padding: 10px;
+}
+.caja-2 {
+    background-color: lightcoral;
+    border: 10px solid orange;
+    float: left;
+}
+.text {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    /* centraría el texto en el medio. Al height se le resta el font-size -> 250px - 20px = 230px */
+}
+.caja-1 {
+    float: left; /* Convierte las cajas en elementos flotantes y los posiciona a la izquierda*/
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+    /* Limpia el efecto float de los elementos que esten por debajo */
+}
