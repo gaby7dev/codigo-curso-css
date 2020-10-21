@@ -1,0 +1,58 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul li {
+    font-size: 20px;
+}
+
+ul li:first-child{
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+ul li:nth-child(3){ /*Podemos ubicar un elemento pasando su posición*/
+    color: blue;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+ul li:last-child{
+    color: gray;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#link {
+    font-size: 30px;
+    color: lightsalmon;
+}
+#link:link{ /*Color para enlaces no visitados*/
+    color: rebeccapurple;
+}
+
+#link:visited {
+    color: violet;
+}
+
+#link:hover {
+    color: yellow;
+}
+
+#link:active   {
+    color: orange;
+    font-weight: bold;
+}
+
+input[type="text"]{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+input[type="text"]:focus{
+    border: 4px dashed lightblue;
+    outline: none;
+}

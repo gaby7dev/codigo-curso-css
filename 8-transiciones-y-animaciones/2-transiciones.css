@@ -1,0 +1,22 @@
+.btn{
+    display: block;
+    padding: 10px;
+    background-color: lightcyan;
+    color: springgreen;
+    width: 150px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid springgreen;
+    /* transition: all 3s; */ 
+    /* Podemos indicar la transicion de cada propiedad */
+    transition: border 500ms, background 3s, border-radius 1s;
+}
+
+.btn:hover{
+    border-radius: 15px;
+    border: 2px dashed springgreen;
+    background-color: rgba(255, 255, 0, 0.945);
+}

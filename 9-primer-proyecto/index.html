@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer proyecto web con HTML y CSS</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- INICIO DE LA CABECERA -->
+    <header id="header">
+        <div class="logotipo">
+            <img src="img/logo.png" alt="Logotipo de la web">
+        </div>
+        <h1>
+            <a href="index.html">Master en CSS</a>
+        </h1>
+    </header>
+    <!-- FIN DE LA CABECERA -->
+
+    <!-- INICIO DE MENU DE NAVEGACIÓN -->
+    <nav id="nav">
+        <ul>
+            <li>
+                <a href="#">Inicio</a>
+            </li>
+            <li>
+                <a href="#">Contenido</a>
+            </li>
+            <li>
+                <a href="#">Requerimientos</a>
+            </li>
+            <li>
+                <a href="#">Lenguajes</a>
+                <ul>
+                    <li>
+                        <a href="#">HTML</a>
+                    </li>
+                    <li>
+                        <a href="#">CSS</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Frameworks</a>
+                <ul>
+                    <li>
+                        <a href="#">LESS</a>
+                    </li>
+                    <li>
+                        <a href="#">SASS</a>
+                    </li>
+                    <li>
+                        <a href="#">BOOTSTRAP</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Proyectos</a>
+            </li>
+            <li>
+                <a href="#">El instructor</a>
+            </li>
+            <li>
+                <a href="#">Reseñas</a>
+            </li>
+            <li>
+                <a href="#">Blog</a>
+            </li>
+            <li>
+                <a href="#">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- FIN DE MENU DE NAVEGACIÓN -->
+
+    <!-- INICIO DEL CONTENIDO CENTRAL -->
+    <div id="content">
+        <!-- INICIO DE LA BARRA LATERAL -->
+        <aside id="aside">
+            <div id="login" class="widget">
+                <h3>Entrar a la web</h3>
+                <form>
+                    <label for="usuario">Usuario:</label>
+                    <input type="text">
+
+                    <label for="usuario">Contraseña:</label>
+                    <input type="password">
+
+                    <input type="submit" value="Entrar">
+                </form>
+                
+                <a href="#">Zona de alumnos</a>
+                <a href="#">Zona del profesor</a>
+                <a href="#">Acceso a calificaciones</a>
+            </div>
+
+            <div class="widget">
+                <h3 class="red">Aula virtual 1</h3>
+                <form>
+                    <label for="usuario">Nombre de usuario:</label>
+                    <input type="text">
+
+                    <label for="usuario">Contraseña:</label>
+                    <input type="password">
+
+                    <input type="submit" value="Entrar">
+                </form>
+            </div>
+
+            <div class="widget">
+                <h3 class="blue">Aula virtual 2</h3>
+                <form>
+                    <label for="usuario">Nombre de usuario:</label>
+                    <input type="text">
+
+                    <label for="usuario">Contraseña:</label>
+                    <input type="password">
+
+                    <input type="submit" value="Entrar">
+                </form>
+            </div>
+
+            <div class="widget">
+                <h3>Enlaces de interes</h3>
+                <ul>
+                    <li>
+                        <a href="#">Master en js</a>
+                    </li>
+                    <li>
+                        <a href="#">Master en PHP</a>
+                    </li>
+                    <li>
+                        <a href="#">Master en webs full-stack</a>
+                    </li>
+                    <li>
+                        <a href="#">Master en frameworks JS</a>
+                    </li>
+                    <li>
+                        <a href="#">Curso de git y comandos Linux</a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <!-- FIN DE LA BARRA LATERAL -->
+
+        <!-- INICIO DE SECCIONES -->
+        <div class="sections">
+            <section id="frontend">
+                <span class="stickers">
+                    <img class="stickerone" src="img/scotch.png" alt="pegatina">
+                    <img class="stickertwo" src="img/scotch.png" alt="pegatina">
+
+                </span>
+                <h2 class="titulo">Noticias de front-end</h2>
+
+                <article class="article">
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eius modi vel accusamus asperiores hic, libero eaque quae veritatis enim.
+                    </p>
+                    <span class="date">[20-12-2020]</span>
+                </article>
+
+                <article class="article">
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eius modi vel accusamus asperiores hic, libero eaque quae veritatis enim.
+                    </p>
+                    <span class="date">[20-12-2020]</span>
+                </article>
+
+                <article class="article">
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eius modi vel accusamus asperiores hic, libero eaque quae veritatis enim.
+                    </p>
+                    <span class="date">[20-12-2020]</span>
+                </article>
+                <article class="article">
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eius modi vel accusamus asperiores hic, libero eaque quae veritatis enim.
+                    </p>
+                    <span class="date">[20-12-2020]</span>
+                </article>
+            </section>
+
+            <section id="backend">
+                <span class="stickers">
+                    <img class="stickerone" src="img/scotch.png" alt="pegatina">
+                    <img class="stickertwo" src="img/scotch.png" alt="pegatina">
+
+                </span>
+                <h2 class="titulo">Noticias de back-end</h2>
+
+                <article class="article">
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eius modi vel accusamus asperiores hic, libero eaque quae veritatis enim.
+                    </p>
+                    <span class="date">[20-12-2020]</span>
+                </article>
+
+                <article class="article">
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eius modi vel accusamus asperiores hic, libero eaque quae veritatis enim.
+                    </p>
+                    <span class="date">[20-12-2020]</span>
+                </article>
+
+                <article class="article">
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eius modi vel accusamus asperiores hic, libero eaque quae veritatis enim.
+                    </p>
+                    <span class="date">[20-12-2020]</span>
+                </article>
+                <article class="article">
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eius modi vel accusamus asperiores hic, libero eaque quae veritatis enim.
+                    </p>
+                    <span class="date">[20-12-2020]</span>
+                </article>
+            </section>
+
+            <section id="instructor">
+                <span class="stickers">
+                    <img class="stickerone" src="img/scotch.png" alt="pegatina">
+                    <img class="stickertwo" src="img/scotch.png" alt="pegatina">
+
+                </span>
+                <h2 class="titulo">Noticias de instructor</h2>
+
+                <article class="article">
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eius modi vel accusamus asperiores hic, libero eaque quae veritatis enim.
+                    </p>
+                    <span class="date">[20-12-2020]</span>
+                </article>
+
+                <article class="article">
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eius modi vel accusamus asperiores hic, libero eaque quae veritatis enim.
+                    </p>
+                    <span class="date">[20-12-2020]</span>
+                </article>
+
+                <article class="article">
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eius modi vel accusamus asperiores hic, libero eaque quae veritatis enim.
+                    </p>
+                    <span class="date">[20-12-2020]</span>
+                </article>
+                <article class="article">
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eius modi vel accusamus asperiores hic, libero eaque quae veritatis enim.
+                    </p>
+                    <span class="date">[20-12-2020]</span>
+                </article>
+            </section>
+        </div>
+        <!-- FIN DE SECCIONES -->
+        <aside id="frase">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt quod nobis labore odio delectus aperiam. <br> 
+            <a href="#">Leer más frases</a> 
+        </aside>
+    </div>
+    <!-- FIN DEL CONTENIDO CENTRAL -->
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+.caja{
+    margin-top: 40px;
+    width: 150px;
+    height: 150px;
+    background-color: springgreen;
+    border: 2px solid brown;
+    border-radius: 5%;
+    /* Llamando la animación */
+    animation-name: desplazamiento;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+}
+
+/* animación */
+
+@keyframes desplazamiento{ /*nombre*/
+    /* opcion 1
+    from{  Desde 
+        margin-left: 0;
+    } 
+    to{  a 
+        margin-left: 300px;
+    } */
+    /* opcion */
+    0%{   
+        transform: rotate(0deg);
+        margin-left: 0;
+    } 
+    50%{   
+        transform: rotate(360deg);
+        margin-left: 300px;
+    } 
+    100%{   
+        transform: rotate(0deg);
+        margin-left: 0;
+    }
+}
