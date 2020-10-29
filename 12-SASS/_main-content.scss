@@ -1,0 +1,20 @@
+$color-texto: #ec2323;
+
+main {
+    padding-top: 20px;
+    width: 100%;
+    min-height: 35vh;
+    background-color: #a0a0a0;
+    text-align: center;
+
+    h2 {
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: normal;
+        color: $color-texto;
+    }
+    p {
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+}

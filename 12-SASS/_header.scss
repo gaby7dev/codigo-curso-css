@@ -1,0 +1,75 @@
+// variables
+$color-texto: #ec2323;
+$fuente-tipica: Arial, Helvetica, sans-serif;
+$mediana: 35px;
+body {
+    margin: 0;
+    padding: 0;
+}
+// mixins (Funciones):
+
+@mixin crearBordes(){
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 5px solid red;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+}
+@mixin  crearCaja($width, $height, $color){ 
+    // mixin con parametros
+    width: $width;
+    height: $height;
+    background-color: $color;
+    margin: 5px auto;
+}
+
+//herencia
+%encabezado-2 {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin: 3px 0;
+}
+
+// anidación
+header {
+    padding-top: 20px;
+    width: 100%;
+    min-height: 45vh;
+    background-color: #f9f9f9;
+    text-align: center;
+
+    h1 {
+        font-size: $mediana;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: normal;
+        color: $color-texto;
+    }
+    p {
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        // Llamando a la función.
+        @include crearBordes(); 
+    }
+    
+    .head-1{
+        @extend %encabezado-2;
+        color: crimson;
+    }
+    .head-2{
+        @extend %encabezado-2;
+        color: lime;
+    }
+    .head-3{
+        @extend %encabezado-2;
+        color: khaki;
+    }
+}
+
+.caja {
+    @include crearCaja(100px, 100px, yellow);
+}
+
+
