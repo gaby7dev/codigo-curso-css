@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.layout{
+    width: 1200px;
+    margin: 0 auto;
+    /* CSS GRID */
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+    /*  Sirve para indicar cuantas columanas quiero y especificar su tamaño.
+        grid-template-columns: calc(50% - 10px) calc(50% - 10px);
+        grid-template-columns: repeat(2,  calc(25% - 10px)) 15% 35%;
+        -----------------------------------------------
+        La funcion repeat(cantidad de columnas, tamaño) 
+        Unidades de medida: fr (fracción) calcula la fracción indicada y la adapta al tamaño que tiene junto a los demas medidas indicadas como el gap.
+
+    */
+
+    gap: 10px; 
+    /* grid-gap: 10px; propiedad obsoleta*/
+    /* gap (shorthand), sirve para indicar el espacio/brecha entre las filas y columnas.*/
+
+    border: 3px solid orangered;
+    padding:10px;
+}
+
+.caja{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    padding: 20px;
+    border: 4px solid #222;
+    /* margin: 10px; */
+}
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.pink {
+    background-color: pink;
+}
