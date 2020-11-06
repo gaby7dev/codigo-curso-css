@@ -9,7 +9,7 @@ body{
     /* CSS GRID */
     display: grid;
 
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     /*  Sirve para indicar cuantas columanas quiero y especificar su tamaño.
         grid-template-columns: calc(50% - 10px) calc(50% - 10px);
         grid-template-columns: repeat(2,  calc(25% - 10px)) 15% 35%;
@@ -18,7 +18,8 @@ body{
         Unidades de medida: fr (fracción) calcula la fracción indicada y la adapta al tamaño que tiene junto a los demas medidas indicadas como el gap.
 
     */
-
+    grid-template-rows: 1fr 1fr 2fr;
+    /* Sirve para indicar cuantas filas quiero y especificar su tamaño. */
     gap: 10px; 
     /* grid-gap: 10px; propiedad obsoleta*/
     /* gap (shorthand), sirve para indicar el espacio/brecha entre las filas y columnas.*/
@@ -36,17 +37,38 @@ body{
     /* margin: 10px; */
 }
 .red {
+
+    /* Expandir comumnas indicando desde que linea comienza hasta la linea que finaliza
+        grid-column-start: 1; 
+        grid-column-end: 3; 
+        shorthand grid-column: start / end; */
+    grid-column: 1 / 4; 
+    
     background-color: red;
 }
 
 .green {
+    /* expandir filas */
+    grid-row: 2/4 ;
     background-color: green;
 }
 
 .blue {
+    grid-column: 2/4;
     background-color: blue;
 }
 
 .pink {
+    /* grid-column: 2/3; */
     background-color: pink;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.lightblue {
+    grid-column-start: 1; 
+    grid-column-end: 4;
+    background-color: lightblue;
 }
